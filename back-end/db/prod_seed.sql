@@ -6,3 +6,14 @@ INSERT INTO test (name) VALUES
 ('Friday'),
 ('Saturday'),
 ('Sunday');
+
+
+
+
+
+
+
+
+
+
+

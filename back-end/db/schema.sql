@@ -1,11 +1,18 @@
-DROP DATABASE IF EXISTS cta_dev;
-CREATE DATABASE cta_dev;
+DROP DATABASE IF EXISTS swishy_swoosh_app;
+CREATE DATABASE swishy_swoosh_app;
 
-\c cta_dev;
+\c swishy_swoosh_app;
 
-DROP TABLE IF EXISTS test;
+DROP TABLE IF EXISTS sneakers;
 
-CREATE TABLE test (
+    CREATE TABLE sneakers(
     id SERIAL PRIMARY KEY, 
-    name TEXT
+    name TEXT,
+    description TEXT,
+    size INTEGER,
+    price INTEGER,
+    rating NUMERIC,
+    CHECK (rating >=0 AND rating <= 5),
+    featured BOOLEAN,
+    image TEXT
 );
