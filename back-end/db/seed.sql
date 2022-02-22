@@ -8,9 +8,9 @@ INSERT INTO sneakers (name, description, size, price, rating, featured, image ) 
 ('Air Jordan 1', 'Bred 1s', 9, 200, 3, true, 'pic'),
 ('Air Jordan 3', 'Cement 3s', 9, 200, 2, true,'pic'),
 ('Air Jordan 4', 'Bred 4', 9, 300, 4, true, 'pic'),
-('Air Jordan 5', 'Raging Bull', 9, 300, 7, true, 'pic'),
+('Air Jordan 5', 'Raging Bull', 9, 300, 3, true, 'pic'),
 ('Air Jordan 6', 'Infrared 6s', 9, 300, 5, true, 'pic'),
-('Air Jordan 7', 'Bordeaux 7s', 9, 300, 8, true, 'pic'),
+('Air Jordan 7', 'Bordeaux 7s', 9, 300, 3, true, 'pic'),
 ('Air Jordan 8', 'Aqua 8s', 9, 400, 4, true, 'pic'),
 ('Air Jordan 9', 'Olive 9s', 9, 400, 4, true, 'pic');
 
