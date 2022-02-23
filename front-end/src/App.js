@@ -1,7 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+
+//components
 import NavBar from "./components/NavBar";
 
+//pages
+import Home from "./Pages/Home";
+import Index from "./Pages/Index"
+import FourOFour from "./Pages/FourOFour";
 
 
 function App(){

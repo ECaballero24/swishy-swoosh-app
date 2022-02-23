@@ -21,7 +21,7 @@ const getAllSneakers = async() => {
         } catch(err){
             return err;
         }
-}
+};
 
  const createSneaker = async(sneaker) => {
         try{

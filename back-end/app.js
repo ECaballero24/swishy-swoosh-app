@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 /////////////////////////////////////
 // REMOVE AFTER SUCCESSFUL DEPLOYMENT
 /////////////////////////////////////
-const db = require("./db/dbConfig.js");
+// const db = require("./db/dbConfig.js");
 
 
 app.use("/sneakers", sneakerController);

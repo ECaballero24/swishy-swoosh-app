@@ -21,11 +21,12 @@ sneakers.get("/", async (req, res) => {
 sneakers.get("/:id", async (req, res)=>{
     const { id } = req.params;
     try{
-        const sneaker = await getSneaker(id);
-        if(sneaker.id){
-            res.status(200).json(sneaker);
+        const oneSneaker = await getSneaker(id);
+        console.log(oneSneaker);
+        if(oneSneaker.id){
+            res.status(200).json(oneSneaker);
         } else {
-            res.status(404).json({ error: "server error" });
+            res.status(404).json({ error: "BOO-HOO your sneaker not found" });
         }
     } catch(err){
         console.log(err);
