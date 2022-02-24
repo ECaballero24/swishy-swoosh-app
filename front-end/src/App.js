@@ -8,6 +8,9 @@ import NavBar from "./components/NavBar";
 import Home from "./Pages/Home";
 import Index from "./Pages/Index"
 import FourOFour from "./Pages/FourOFour";
+import New from "./Pages/New";
+import Show from "./Pages/Show";
+import Edit from "./Pages/Edit";
 
 
 function App(){
@@ -19,6 +22,9 @@ function App(){
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/sneakers" element={<Index />} />
+            <Route path="/sneakers/new" element={<New />} />
+            <Route path="/sneakers/:id" element={<Show />} />
+            <Route path="/sneakers/:id/edit" element={<Edit />} />
             <Route path="/*" element={<FourOFour />} />
           </Routes>
         </main>

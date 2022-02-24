@@ -18,8 +18,11 @@ function Sneakers(){
 
     return(
         <div className="Sneakers">
+           
            <article>
-               
+               {sneakers.map((sneaker)=>{
+                   return <Sneaker key={sneaker.id} sneaker={sneaker} />
+               })}
            </article>
 
         </div>
