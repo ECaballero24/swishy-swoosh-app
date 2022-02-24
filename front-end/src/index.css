@@ -1,4 +1,7 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:seagreen;
   background-color:snow;
@@ -22,11 +25,31 @@
   margin: 0 auto;
   padding: 50px;
 
+
 }
 
 
+.Sneakers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  padding: 50px;
+  margin: 10;
+}
 
+.navBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color:orangered;
+  padding: 10px;
+  font-family:'Righteous', cursive; 
+  
+}
 
+a{
+  text-decoration: none;
+  
+}
 
 
 

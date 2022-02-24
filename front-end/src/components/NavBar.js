@@ -2,12 +2,17 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
     return (
-        <nav>
-            <Link to="/"><h1>SWISHY SWOOSH</h1></Link>
-            <div className="navButtons">
-                <Link to="/sneakers"><button>VIEW ALL SNEAKERS</button></Link>
-                <Link to="/sneakers/new"><button>NEW SNEAKERS</button></Link>
-            </div>
+        <nav className="navBar">
+           
+           <div><Link to="/"><h3>SWISHY SWOOSH</h3></Link></div>
+            
+          
+            {/* <div className="navButtons"> */}
+        
+              <div><Link to="/sneakers">VIEW ALL SNEAKERS</Link></div>    
+              <div><Link to="/sneakers/new">NEW SNEAKER</Link></div>     
+            
+            {/* </div> */}
         </nav>
     )
 }

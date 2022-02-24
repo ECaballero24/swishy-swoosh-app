@@ -17,9 +17,9 @@ function Sneakers(){
     }, []);
 
     return(
-        <div className="Sneakers">
+        <div>
            
-           <article>
+           <article className="Sneakers">
                {sneakers.map((sneaker)=>{
                    return <Sneaker key={sneaker.id} sneaker={sneaker} />
                })}

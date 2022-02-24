@@ -1,3 +1,18 @@
+## Netlify deployment
+
+https://modest-hodgkin-46202e.netlify.app
+
+## Heroku deployment
+
+https://ecbk-swishyswoosh-be.herokuapp.com/
+
+
+## Github deployment
+
+https://github.com/ECaballero24/swishy-swoosh-app
+
+
+
 # PERN Final Project Template
 
 - select `use this template`
